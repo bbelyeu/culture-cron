@@ -11,8 +11,10 @@ import webapp2
 
 import alertlib
 
-_DEFAULT_CHANNEL = "#1s-and-0s"
-_CULTURE_MESSAGES_CSV_URL = "https://docs.google.com/spreadsheets/d/1EtgPvCh0a0AFDOW2vu_ugWQTZVQbsPXKEebbOoqof90/pub?gid=0&single=true&output=csv"
+_DEFAULT_CHANNEL = "#yv-dd-bb"
+_CULTURE_MESSAGES_CSV_URL = ("https://docs.google.com/spreadsheets/d/e/2PACX-1vQoQ8cmOPbwzROYi-"
+                             "6hSQ7has_M00ErVg2VbeF_x9aLvxPBgIkU3VTdNXuVpv4Wj4b6ScScYfuwod1_/"
+                             "pub?gid=0&single=true&output=csv")
 
 _RESPOND_REGEXP = re.compile(r'culture us$')
 
